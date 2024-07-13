@@ -1,0 +1,97 @@
+*{
+    padding: 0; margin: 0;
+}
+body{
+    background-image: url('#');
+    background-position: 2px;
+    background-color: rgb(56, 100, 78);
+}
+h2{
+	color:white;
+    background-color: rgba(58, 57, 57, 0.747);
+	text-align: center;
+	font-family: arial;
+	text-transform: uppercase;
+	border: 3px solid #000000;
+	padding: 5px;
+	width: 490px;
+	margin: auto;
+	margin-bottom: 10px;
+    margin-top: 20px;
+}
+form {
+    border: 3px solid #000000;
+    background-color: rgb(178, 228, 98);
+    font-family: arial;
+    width: 500px;
+    margin: auto;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #030101;
+    box-sizing: border-box;
+}
+label{
+	color:rgb(255, 245, 245);
+	text-transform: uppercase;
+}
+button {
+    background-color: #049372;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.6;
+    background-color: #f03434;
+}
+
+.kembalibtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f03434;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: auto;
+}
+img.avatar {
+    width: 320px;
+}
+img.logo {
+    height: 50px;
+    width: 400px;
+}
+
+.container {
+    padding: 20px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 20px;
+    font-size: 18px;
+
+}
+span{
+	color: rgb(255, 255, 255);
+    padding-left: 10px;
+}
+@media screen and (max-width: 200px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
